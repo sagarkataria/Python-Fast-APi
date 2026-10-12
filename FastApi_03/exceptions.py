@@ -1,4 +1,4 @@
-from fastapi.response import JSONResponse
+from fastapi.responses import JSONResponse
 from fastapi import Request
 
 class PincodeNotFoundError(Exception):
