@@ -1,4 +1,4 @@
-from SQLModel import SQLModel,Session,create_engine
+from sqlmodel import SQLModel,Session,create_engine
 
 DATABASE_URL = "sqlite:///rangmanch.db"
 
